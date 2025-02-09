@@ -1,5 +1,4 @@
 import React from "react";
-import { headers } from "next/headers";
 import { tabs } from "@/components/navbar/tab";
 import Tab from "@/app/components/navbar/tabcomponent.navbar";
 

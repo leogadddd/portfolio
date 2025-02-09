@@ -8,8 +8,8 @@ export default function AppLayout({
 	return (
 		<div className="">
 			<Navigationbar />
-			<div className="mx-auto max-w-screen-lg">
-				<div className="flex flex-col lg:flex-row lg:gap-8 mt-8 px-4">
+			<div className="mx-auto max-w-screen-xl flex justify-center">
+				<div className="flex flex-col lg:flex-row lg:gap-16 mt-8 px-4">
 					<div className="relative">
 						<ProfileCard />
 					</div>

@@ -1,8 +1,7 @@
 
 
 import { ReactNode } from 'react';
-import { IconType } from 'react-icons';
-import { TbHomeFilled, TbBriefcaseFilled, TbBallpenFilled, TbShieldFilled } from "react-icons/tb";
+import { TbHomeFilled, TbBriefcaseFilled, TbBallpenFilled } from "react-icons/tb";
 
 export type tab = {
 	routeName: string;

@@ -5,7 +5,7 @@ import { TabProps } from "@/components/navbar/tab";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-const Tab: React.FC<TabProps> = ({ routeName, route, Icon, active }) => {
+const Tab: React.FC<TabProps> = ({ routeName, route, Icon }) => {
 	const router = useRouter();
 	const [onHover, setOnHover] = useState(false);
 

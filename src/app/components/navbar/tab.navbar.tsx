@@ -4,12 +4,12 @@ import { tabs } from "@/components/navbar/tab";
 import Tab from "@/app/components/navbar/tabcomponent.navbar";
 
 const TabComponent = async () => {
-	const pathname = (await headers()).get("x-pathname");
+	// const pathname = (await headers()).get("x-pathname");
 
 	return (
 		<>
 			<ul className="flex items-center justify-center">
-				{tabs.map((tab, index) => (
+				{tabs.map((tab) => (
 					<Tab
 						key={`navbar-${tab.routeName}`}
 						routeName={tab.routeName}

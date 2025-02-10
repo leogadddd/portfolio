@@ -1,13 +1,16 @@
 import DataHero from "@/components/hero/data.hero";
 import DescriptionHero from "@/components/hero/description.hero";
 import TitleHero from "@/components/hero/title.hero";
-import Highlightcards from "@/app/components/highlight/highlights";
-import RecentProjectSection from "../components/recentprojects/recentprojects.section";
+import Highlightcards from "@/components/highlight/highlights";
+import RecentProjectSection from "@/components/recentprojects/recentprojects.section";
+import ThoughtsSection from "@/components/thoughts/thoughts.section";
+import ToolsSection from "@/components/tools/tools.section";
+import ContactMeSection from "@/components/contactme/contactme.section";
 
 
 export default function Home() {
 	return (
-		<div className="">
+		<div className="mb-64">
 			<TitleHero title="Software" subtitle="Developer" />
 			<DescriptionHero text="Self-Taught Software Developer, Film Maker, and a recent
             graduate of Bachelor of Science in Computer Science." />
@@ -15,6 +18,9 @@ export default function Home() {
 			<Highlightcards />
 
 			<RecentProjectSection />
+			<ToolsSection />
+			<ThoughtsSection />
+			<ContactMeSection />
 		</div>
 	);
 }

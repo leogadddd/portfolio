@@ -15,8 +15,8 @@ const RecentProjectSection = () => {
 			</div>
 
 			<div className="mt-4 flex flex-col gap-1 max-w-[576px] mx-auto lg:mx-0">
-				{projects.map((item) => {
-					return <ProjectsCard key={`projects-${item}`} />
+				{projects.map((item, index) => {
+					return <ProjectsCard key={`projects-${item}-${index}`} />
 				})}
 			</div>
 		</div>

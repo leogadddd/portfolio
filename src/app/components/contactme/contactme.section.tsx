@@ -11,11 +11,9 @@ const ContactMeSection = () => {
 			</div>
 			<div className="mx-auto lg:mx-0 max-w-[576px] text-center lg:text-left">
 				<p className="text-[--color-dark-accent-3] mt-2">
-					Feel free to contact me for any inquiries
-					or collaborations.
+					Feel free to contact me for any inquiries or collaborations.
 				</p>
 			</div>
-
 			<div className="w-full max-w-[576px] mt-8 mx-auto lg:mx-0 min-h-[400px]">
 				<div className="flex flex-col-reverse lg:flex-row gap-4 lg:gap-8">
 					<Form />

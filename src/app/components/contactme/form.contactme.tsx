@@ -27,7 +27,7 @@ const Form = () => {
 				<div className="mt-4 text-center">
 					<h1 className="font-bold text-xl">Sent To Leo</h1>
 					<p className="text-sm text-[--color-dark-accent-3]">
-						Thanks! I'll get back to you.
+						Thanks"!" I'll get back to you.
 					</p>
 				</div>
 			</div>

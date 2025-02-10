@@ -39,3 +39,10 @@ body {
   background: linear-gradient(215deg, rgba(245,111,16,1) 0%, rgba(133,55,0,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f56f10",endColorstr="#853700",GradientType=1);
 }
+
+.svgoutline {
+  stroke: var(--color-light);
+  stroke-width: 4px;
+  stroke-linejoin: round;
+  paint-order: stroke fill;
+}

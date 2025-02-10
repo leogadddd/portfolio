@@ -6,7 +6,7 @@ import data from "@/components/hero/data";
 
 const DataHero = () => {
 	return (
-		<div className="flex justify-center lg:justify-start gap-8 mt-16 h-40">
+		<div className="flex justify-center lg:justify-start mt-16 h-40">
 			{data.map((data) => (
 				<div key={`data-${data.key}`} className="w-max h-24 flex flex-col items-center gap-4">
 					<h1 className="flex lg:items-center justify-center lg:justify-start  w-full text-5xl lg:text-7xl font-medium text-center lg:text-left h-10 lg:h-16">

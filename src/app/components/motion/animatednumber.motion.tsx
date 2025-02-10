@@ -11,13 +11,13 @@ const AnimatedNumber = ({ value }: { value: number }) => {
 		setRandomStart(Math.floor(value * 0.8 + Math.random() * value * 0.4));
 	}, [value]);
 
-	let spring = useSpring(randomStart, {
+	const spring = useSpring(randomStart, {
 		mass: 0.2,
 		stiffness: 25,
 		damping: 15
 	});
 
-	let display = useTransform(spring, (current) =>
+	const display = useTransform(spring, (current) =>
 		Math.round(current).toLocaleString()
 	);
 

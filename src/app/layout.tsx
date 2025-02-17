@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./styles/globals.css";
+import "./styles/prosemirror.css";
+import "./styles/fonts";
 
 const globalFont = Poppins({
 	display: "swap",

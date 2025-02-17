@@ -1,6 +1,6 @@
 import React from "react";
 import { tabs } from "@/components/navbar/tab";
-import Tab from "@/app/components/navbar/tabcomponent.navbar";
+import Tab from "@/components/navbar/tabcomponent.navbar";
 
 const TabComponent = async () => {
 	// const pathname = (await headers()).get("x-pathname");

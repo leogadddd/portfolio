@@ -1,7 +1,7 @@
 "use server";
 
 import React from 'react';
-import TabComponent from '@/app/components/navbar/tab.navbar';
+import TabComponent from '@/components/navbar/tab.navbar';
 
 const Navigationbar = () => {
 	return (

@@ -174,7 +174,7 @@ const placeholderExtension = Placeholder.configure({
         return `Heading ${node.attrs.level}`;
       }
       if (node.type.name === "paragraph") {
-        return "Press '/' for commands";
+        return "Enter Text or Press '/' for commands";
       }
       return "";
     }

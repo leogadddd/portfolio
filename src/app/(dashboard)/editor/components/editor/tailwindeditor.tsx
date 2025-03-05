@@ -20,7 +20,6 @@ import {
 } from "novel";
 import { generateHTML, generateJSON } from "@tiptap/html";
 import hljs from "highlight.js";
-import { defaultEditorContent } from "@/lib/editor/content";
 import { defaultExtensions } from "@/components/editor/extensions";
 import { uploadFn } from "@/components/editor/image.upload";
 import {
@@ -56,14 +55,6 @@ const TailwindAdvancedEditor: React.FC<TailwindAdvancedEditorProps> = ({
   const [openColor, setOpenColor] = useState(false);
   const [openLink, setOpenLink] = useState(false);
   const [openAI, setOpenAI] = useState(false);
-
-  const highlightCodeblocks = (content: string) => {
-    const doc = new DOMParser().parseFromString(content, "text/html");
-    doc.querySelectorAll("pre code").forEach((el) => {
-      hljs.highlightElement(el as HTMLElement);
-    });
-    return new XMLSerializer().serializeToString(doc);
-  };
 
   const debouncedUpdates = useDebouncedCallback((editor: EditorInstance) => {
     const json = editor.getJSON();

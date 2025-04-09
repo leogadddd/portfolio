@@ -99,7 +99,7 @@ const ProjectsPage = async ({ params }: Props) => {
       <h6 className="text-[--color-accent] font-bold text-center lg:text-left">
         {project.topTitle}
       </h6>
-      <div className="max-w-[576px] mx-auto lg:mx-0 text-6xl font-bold uppercase text-center lg:text-left">
+      <div className="max-w-[576px] mx-auto lg:mx-0 text-5xl font-bold uppercase text-center lg:text-left">
         <h1 className="relative">
           <span className="hidden lg:block absolute top-1/2 -translate-y-1/2 -left-10 text-[--color-accent] font-medium">
             -

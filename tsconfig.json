@@ -20,17 +20,12 @@
     ],
     "paths": {
       "@/*": ["./src/*"],
-      "@/lib/*": ["./src/app/lib/*"],
       "@/components/*": [
         "./src/app/(app)/components/*",
-        "./src/app/(dashboard)/components/*",
-        "./src/app/(dashboard)/editor/components/*",
-        "./src/app/(dashboard)/x/projects/[slug]/components"
+        "./src/app/(app)/projects/components/*"
       ],
       "@/assetsimages/*": ["./src/assets/images/*"],
-      "@/actions/*": ["./src/actions/*"],
-      "@/services/*": ["./src/app/(dashboard)/services/*"],
-      "@/contexts/*": ["./src/app/(dashboard)/contexts/*"]
+      "@/actions/*": ["./src/actions/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

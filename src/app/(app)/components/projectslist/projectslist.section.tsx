@@ -1,7 +1,6 @@
 import React from "react";
 import ProjectsCard from "@/components/recentprojects/card.recentprojects";
-
-const projects = [{}, {}, {}];
+import { projects } from "@/app/projects";
 
 const ProjectsListSection = () => {
   return (
@@ -16,9 +15,17 @@ const ProjectsListSection = () => {
         <h2 className="text-[--color-dark-accent-2]">List</h2>
       </div>
 
-      <div className="mt-4 flex flex-col gap-1 max-w-[576px] mx-auto lg:mx-0">
+      <div className="mt-4 flex flex-col gap-2 max-w-[576px] mx-auto lg:mx-0">
         {projects.map((item, index) => {
-          return <ProjectsCard key={`projects-${item}-${index}`} />;
+          return (
+            <ProjectsCard
+              key={`projects-${item.title}-${index}`}
+              index={index}
+              image={item.images[0].src}
+              imageAlt={item.images[0].alt}
+              {...item}
+            />
+          );
         })}
       </div>
     </div>

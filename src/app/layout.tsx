@@ -10,20 +10,20 @@ const globalFont = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Leo Gadil",
+  title: "Leo Gadil - Software Developer",
   description:
     "Jann Leo Gadil is a passionate software/game developer based in Manila, Philippines",
   keywords: ["Leo Gadil", "Software Developer", "Game Developer"],
   authors: [{ name: "Leo Gadil", url: "https://leogadil.com" }],
   openGraph: {
-    title: "Leo Gadil",
+    title: "Leo Gadil - Software Developer",
     description:
       "Jann Leo Gadil is a passionate software/game developer based in Manila, Philippines",
     url: "https://leogadil.com",
     images: ["/images/cover.png"],
   },
   twitter: {
-    title: "Leo Gadil",
+    title: "Leo Gadil - Software Developer",
     description:
       "Jann Leo Gadil is a passionate software/game developer based in Manila, Philippines",
     images: ["/images/cover.png"],

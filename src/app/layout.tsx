@@ -20,13 +20,14 @@ export const metadata: Metadata = {
     description:
       "Jann Leo Gadil is a passionate software/game developer based in Manila, Philippines",
     url: "https://leogadil.com",
-    images: ["/images/cover.png"],
+    images: "/images/cover.png",
   },
   twitter: {
     title: "Leo Gadil - Software Developer",
     description:
       "Jann Leo Gadil is a passionate software/game developer based in Manila, Philippines",
-    images: ["/images/cover.png"],
+    images: "/images/cover.png",
+    card: "summary_large_image",
   },
   icons: {
     icon: "/favicon.ico",

@@ -22,7 +22,7 @@ const sociallinks: sociallinks[] = [
   },
   {
     name: "Github",
-    url: "https://github.com/LeoooooGadil",
+    url: "https://github.com/Leogaddd",
     Icon: TbBrandGithub,
   },
   {

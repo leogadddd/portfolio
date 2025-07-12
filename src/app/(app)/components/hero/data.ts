@@ -10,7 +10,7 @@ const data: data[] = [
   },
   {
     key: "Clients had",
-    value: 2,
+    value: 3,
   },
   {
     key: "Coffee Consumed",

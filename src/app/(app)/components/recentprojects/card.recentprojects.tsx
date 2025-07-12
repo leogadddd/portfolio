@@ -24,7 +24,7 @@ const ProjectsCard = ({
       className="group transition-colors p-2 flex gap-4 hover:bg-[--color-dark-accent] border border-transparent hover:border-[--color-dark-accent-2] rounded-2xl"
     >
       <div className="h-32 w-32 md:h-40 md:w-40 bg-[--color-dark-accent] rounded-2xl">
-        <div className="flex items-center justify-center h-full w-full rounded-xl bg-[--color-dark-accent-2]">
+        <div className="flex items-center justify-center h-full w-full rounded-xl bg-[--color-dark-accent-2] border border-neutral-800">
           <img
             src={image}
             alt={imageAlt}

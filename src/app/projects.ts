@@ -25,8 +25,60 @@ export type projectcard = {
 
 export const projects: projectcard[] = [
   {
-    topTitle: "Web App",
-    title: "Spaceverse",
+    topTitle: "Blog Platform",
+    title: "Sonnet",
+    smallDescription: "Effortless Blogging, Endless Expression.",
+    description:
+      "Sonnet is a personal blogging platform I created with a local-first approach, empowering creators and professionals to write freely, sync across devices, and share their thoughts with the world — on their terms.",
+    component: SonnetDescription,
+    slug: "sonnet",
+    images: [
+      {
+        src: "/images/projects/sonnet.png",
+        alt: "sonnet-screenshot-1",
+      },
+      {
+        src: "/images/projects/sonnet-2.png",
+        alt: "sonnet-screenshot-2",
+      },
+    ],
+    links: [
+      {
+        name: "Blog",
+        url: "https://sonnet.leogadil.com/blog/sonnet",
+      },
+      {
+        name: "Website",
+        url: "https://sonnet.leogadil.com",
+      },
+    ],
+    tags: [
+      "web",
+      "blog",
+      "platform",
+      "sonnet",
+      "saas",
+      "blogging",
+      "blogger",
+      "blogging platform",
+      "blog",
+      "Leo Gadil",
+      "leogadddd",
+    ],
+    techStack: [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "TypeScript",
+      "Supabase",
+      "Redis",
+    ],
+    isFeatured: true,
+    isHighlighted: true,
+  },
+  {
+    topTitle: "Chatbot",
+    title: "Atlas",
     smallDescription: "Work in your universe, your way",
     description:
       "Spaceverse is a dynamic productivity web app that blends aesthetic ambiance with practical tools — a cosmic workspace designed to help you focus while vibing in your own digital universe.",
@@ -86,53 +138,62 @@ export const projects: projectcard[] = [
     isHighlighted: true,
   },
   {
-    topTitle: "Blog Platform",
-    title: "Sonnet",
-    smallDescription: "Effortless Blogging, Endless Expression.",
+    topTitle: "Web App",
+    title: "Spaceverse",
+    smallDescription: "Work in your universe, your way",
     description:
-      "Sonnet is a personal blogging platform I created with a local-first approach, empowering creators and professionals to write freely, sync across devices, and share their thoughts with the world — on their terms.",
-    component: SonnetDescription,
-    slug: "sonnet",
+      "Spaceverse is a dynamic productivity web app that blends aesthetic ambiance with practical tools — a cosmic workspace designed to help you focus while vibing in your own digital universe.",
+    component: SpaceverseDescription,
+    slug: "spaceverse",
     images: [
       {
-        src: "/images/projects/sonnet.png",
-        alt: "sonnet-screenshot-1",
+        src: "/images/projects/spaceverse-2.png",
+        alt: "spaceverse-screenshot-2",
       },
       {
-        src: "/images/projects/sonnet-2.png",
-        alt: "sonnet-screenshot-2",
+        src: "/images/projects/spaceverse.png",
+        alt: "spaceverse-screenshot-1",
+      },
+      {
+        src: "/images/projects/spaceverse-3.png",
+        alt: "spaceverse-screenshot-3",
+      },
+      {
+        src: "/images/projects/spaceverse-4.png",
+        alt: "spaceverse-screenshot-4",
       },
     ],
     links: [
       {
         name: "Blog",
-        url: "https://sonnet.leogadil.com/blog/sonnet",
+        url: "https://sonnet.leogadil.com/blog/spaceverse",
       },
       {
         name: "Website",
-        url: "https://sonnet.leogadil.com",
+        url: "https://spaceverse.leogadil.com",
+      },
+      {
+        name: "GitHub",
+        url: "https://github.com/leogadddd/spaceverse-reimagined",
       },
     ],
     tags: [
       "web",
-      "blog",
-      "platform",
-      "sonnet",
+      "app",
+      "productivity",
+      "spaceverse",
       "saas",
-      "blogging",
-      "blogger",
-      "blogging platform",
-      "blog",
-      "Leo Gadil",
+      "workspace",
       "leogadddd",
+      "leo gadil",
     ],
     techStack: [
       "Next.js",
       "React",
       "Tailwind CSS",
       "TypeScript",
-      "Supabase",
-      "Redis",
+      "Firebase",
+      "Framer Motion",
     ],
     isFeatured: true,
     isHighlighted: true,

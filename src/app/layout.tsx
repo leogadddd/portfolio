@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Poppins } from "next/font/google";
 import "./styles/globals.css";
 import "./styles/fonts";
@@ -34,8 +34,9 @@ export const metadata: Metadata = {
     shortcut: "/favicon.ico",
     apple: "/favicon.ico",
   },
-  themeColor: "#f56f10",
 };
+
+export const viewport: Viewport = { themeColor: "#f56f10" };
 
 export default function RootLayout({
   children,
